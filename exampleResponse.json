@@ -1,0 +1,998 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 1507,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "jAuQDwAAQBAJ",
+      "etag": "8SdzYGw8hjY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/jAuQDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Das Geschenk",
+        "subtitle": "Psychothriller | »Verstörend gut. Fitzeks neuer Thriller schnürt einem beim Lesen die Kehle zu!« Laura",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2019-10-23",
+        "description": "Der Nr. 1 Spiegel Bestseller-Thriller von Sebastian Fitzek » Das Geschenk« »Das Geschenk« ist ein nervenzerreissender Psychothriller mit der bislang faszinierendsten, moralisch ambivalenten Heldenfigur: einem Analphabeten, der die geheimnisvollen Botschaften einer Entführten entschlüsseln muss. Milan Berg schlägt sich geschickt durchs Leben, auch wenn er ein wohlgehütetes Geheimnis hat: Er ist Analphabet. Nicht einmal seine Freundin ahnt, dass er nicht lesen kann. Doch genau das wird ihm zum Verhängnis: Als er an einer Ampel steht, hält ein Wagen neben ihm – auf dem Rücksitz sieht er ein völlig verängstigtes Mädchen, das einen Zettel gegen die Schreibe presst. Handelt es sich um einen Hilferuf? Zwar kann Milan die Botschaft nicht lesen, aber er spürt ganz genau: Das Kind ist in tödlicher Gefahr! Ein fesselnder Entführungsthriller Die Suche nach dem entführten Mädchen wird zu einer albtraumhafte Irrfahrt, an deren Ende die grausame Erkenntnis steht: Manchmal ist die Wahrheit zu entsetzlich, um mit ihr zu leben - und Unwissenheit das größte Geschenk auf Erden. Begeisterte Pressestimmen zu Fitzeks Bestseller-Psychothriller »Wie eine böse Variante von 1001 Nacht!« – dpa »Was diesen Thriller besonders lesenswert macht: Fitzek ist tief in die Welt der Analphabeten eingetaucht und präsentiert ein wahres Horrorszenario, wenn man in der Welt der Buchstaben nicht zuhause ist.« – Berliner Kurier online",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426439821"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426439824"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 414,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.21.20.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=jAuQDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=jAuQDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=jAuQDwAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=jAuQDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=jAuQDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 14.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 14.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=jAuQDwAAQBAJ&rdid=book-jAuQDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 14990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Das_Geschenk-sample-epub.acsm?id=jAuQDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Das_Geschenk-sample-pdf.acsm?id=jAuQDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=jAuQDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Der Nr. 1 Spiegel Bestseller-Thriller von Sebastian Fitzek » Das Geschenk« »Das Geschenk« ist ein nervenzerreissender Psychothriller mit der bislang faszinierendsten, moralisch ambivalenten Heldenfigur: einem Analphabeten, der die ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "IyfcDwAAQBAJ",
+      "etag": "qy8qM6TRfSA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/IyfcDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Der Heimweg",
+        "subtitle": "Psychothriller | SPIEGEL-Bestseller | »Kein deutscher Spannungsautor beherrscht die Klaviatur des Schreckens so wie Sebastian Fitzek.« Rhein-Neckar-Zeitung",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2020-10-21",
+        "description": "Wer das Datum seines Todes kennt, hat mit dem Sterben schon begonnen – dieser Bestseller von Sebastian Fitzek ist nichts für schwache Nerven! Es ist Samstag, kurz nach 22.00 Uhr. Jules Tannberg sitzt am Begleit-Telefon. Ein ehrenamtlicher Telefon-Service für Frauen, die zu später Stunde auf ihrem Heimweg Angst bekommen und sich einen telefonischen Begleiter wünschen, dessen beruhigende Stimme sie sicher durch die Berliner Nacht nach Hause führt - oder im Notfall Hilfe ruft. Noch nie gab es eine wirklich lebensgefährliche Situation. Bis heute, als Jules mit Klara spricht. Die junge Frau hat entsetzliche Angst. Sie glaubt, von einem Mann verfolgt zu werden, der sie schon einmal überfallen hat und der mit Blut ein Datum auf ihre Schlafzimmerwand malte: Klaras Todestag! Und dieser Tag bricht in nicht einmal zwei Stunden an ... Ein Serienmörder auf freiem Fuß – geheimnisvoll, beklemmend, nervenaufreibend: Einer der spannendsten Thriller aus der Feder des Bestsellerautors Sebastian Fitzek \"Eines vermag dieser Autor wie kein Zweiter: eine Spannung aufzubauen, die zum Schluss schon fast als schmerzhaft empfunden wird.\" krimi-couch",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426439838"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426439832"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 476,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.22.21.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=IyfcDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=IyfcDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=IyfcDwAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=2&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=IyfcDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=IyfcDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=IyfcDwAAQBAJ&rdid=book-IyfcDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Der_Heimweg-sample-epub.acsm?id=IyfcDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Der_Heimweg-sample-pdf.acsm?id=IyfcDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=IyfcDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Wer das Datum seines Todes kennt, hat mit dem Sterben schon begonnen – dieser Bestseller von Sebastian Fitzek ist nichts für schwache Nerven!"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "NPRYDwAAQBAJ",
+      "etag": "f30aK+54EpA",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NPRYDwAAQBAJ",
+      "volumeInfo": {
+        "title": "Der Insasse",
+        "subtitle": "Psychothriller | Sebastian Fitzeks Psychiatrie-Blockbuster, rasant-spannend, komplex und berührend | SPIEGL Bestseller Platz 1",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2018-10-24",
+        "description": "Der Nummer-1-SPIEGEL-Bestseller von Sebastian Fitzek: Ein vermisstes Kind – ein verzweifelter Vater – ein Höllentrip von einem Psycho-Thriller! Zwei entsetzliche Kindermorde hat er bereits gestanden und die Berliner Polizei zu den grausam entstellten Leichen geführt. Doch jetzt schweigt Guido T., der im Hochsicherheitstrakt der Psychiatrie einsitzt, auf Anraten seiner Anwältin. Die Polizei ist sicher: Er ist auch der Entführer des sechsjährigen Max, der seit einem Jahr spurlos verschwunden ist. Die Ermittler haben jedoch keine belastbaren Beweise, nur Indizien. Und ohne die Aussage des Häftlings werden Max' Eltern keine Gewissheit haben und niemals Abschied von ihrem Sohn nehmen können. Monate nach dem Verschwinden von Max macht ein Ermittler der Mord-Kommission dem verzweifelten Vater ein unglaubliches Angebot: Er schleust ihn in das psychiatrische Gefängnis-Krankenhaus ein, in dessen Hochsicherheitstrakt Guido T. eingesperrt ist. Als falscher Patient, ausgestattet mit einer fingierten Krankenakte. Damit er dem Kindermörder so nahe wie nur irgend möglich ist und ihn zu einem Geständnis zwingen kann. Denn nichts ist schlimmer als die Ungewissheit. Dachte er. Bis er als Insasse die grausame Wahrheit erfährt ... Bestseller-Autor Sebastian Fitzek schickt Sie mit diesem Psycho-Thriller auf einen genial-verstörenden Trip in die Psychiatrie. \"Sebastian Fitzek hat diesmal einen besonderen raffinierten Dreh gefunden, seine Leser mit wachsender Spannung komplett in die Irre zu führen.\" Sächsische Zeitung",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426439814"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426439816"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 440,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.29.27.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=NPRYDwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=NPRYDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=NPRYDwAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=3&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=NPRYDwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=NPRYDwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=NPRYDwAAQBAJ&rdid=book-NPRYDwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Der_Insasse-sample-epub.acsm?id=NPRYDwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Der_Insasse-sample-pdf.acsm?id=NPRYDwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NPRYDwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Dachte er. Bis er als Insasse die grausame Wahrheit erfährt ... Bestseller-Autor Sebastian Fitzek schickt Sie mit diesem Psycho-Thriller auf einen genial-verstörenden Trip in die Psychiatrie."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "mFVsAgAAQBAJ",
+      "etag": "Ht/L8OdyTco",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/mFVsAgAAQBAJ",
+      "volumeInfo": {
+        "title": "Amokspiel",
+        "subtitle": "Psychothriller | Packender Nervenkitzel vom Meister seines Fachs",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Knaur eBook",
+        "publishedDate": "2009-10-02",
+        "description": "Ein packender Psychothriller bis zur letzten Seite »Romane, die man wegen ihrer Spannung nicht aus der Hand legen kann [...] nennt man Reißer. Sebastian Fitzeks 'Amokspiel' ist ein solches Buch - packend in jedem Kapitel.« Focus Online Heute ist ein guter Tag zum Sterben Dieser Tag soll ihr letzter sein. Die Kriminalpsychologin Ira Samin hat ihren Selbstmord sorgfältig vorbereitet – zu schwer lastet der Tod ihrer Tochter auf ihrem Gewissen. Doch dann wird sie in einen Radiosender gerufen, zu einem brutalen Geiseldrama: Ein Psychopath spielt ein makabres Spiel: er legt das Leben der Geiseln in die Hände wahllos angerufener Zuhörer. Und er verlangt, dass seine Verlobte zu ihm ins Studio kommt – doch die ist seit Monaten tot. Ira beginnt mit einer aussichtslosen Verhandlung, bei der ihr Millionen Menschen zuhören ... Überraschende Wendungen und Suspense vom Feinsten In seinem zweiten Buch »Amokspiel« lässt Sebastian Fitzek die Leser gemeinsam mit Ira Samin immer tiefer in die Hintergründe des Geiseldramas eintauchen. Ein Plot voll überraschender Enthüllungen und packender Wendungen entfaltet sich – das perfekte Buch für alle, die clever konstruierte Psychothriller lieben. »Dieses Buch geht einfach unter die Haut, doch der Schluss ist einfach verblüffend. Ein Psychothriller vom Feinsten.« Der Nordschleswiger",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426554807"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426554801"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 521,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.32.31.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=mFVsAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=mFVsAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=mFVsAgAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=4&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=mFVsAgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=mFVsAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=mFVsAgAAQBAJ&rdid=book-mFVsAgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=mFVsAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Sebastian Fitzeks &#39;Amokspiel&#39; ist ein solches Buch - packend in jedem Kapitel.« Focus Online Heute ist ein guter Tag zum Sterben Dieser Tag soll ihr letzter sein."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "ZMUaCwAAQBAJ",
+      "etag": "5QIeJWIq6xE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/ZMUaCwAAQBAJ",
+      "volumeInfo": {
+        "title": "Das Paket",
+        "subtitle": "Psychothriller | SPIEGEL Bestseller Platz 1 | \"Sebastian Fitzek hat ein Paket gepackt, das es in sich hat: eine irre Story, Grusel und Spannung bis zur letzten Zeile.\" dpa",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2016-10-26",
+        "description": "Schneller Bestseller-Psychothriller vom Meister des Wahns Aus dem harmlosen Alltag wird ein gefährlicher Alptraum: Seit die junge Psychiaterin Emma Stein in einem Hotelzimmer vergewaltigt wurde, verlässt sie das Haus nicht mehr. Sie war das dritte Opfer eines Psychopathen und Serienmörders, den die Presse den »Friseur« nennt – weil er den misshandelten Frauen die Haare vom Kopf schert, bevor er sie ermordet. Emma, die als Einzige mit dem Leben davonkam, hat große Angst, der »Friseur« könnte sie erneut heimsuchen, um seine grauenhafte Tat zu vollenden. In ihrer Paranoia glaubt sie in jedem Mann ihren Peiniger wiederzuerkennen, dabei hat sie den Täter nie zu Gesicht bekommen. Nur in ihrem kleinen Haus am Rande des Berliner Grunewalds fühlt sie sich noch sicher – bis der Postbote sie eines Tages bittet, ein Paket für ihren Nachbarn anzunehmen. Einen Mann, dessen Namen sie nicht kennt und den sie noch nie gesehen hat, obwohl sie schon seit Jahren in ihrer Straße lebt ... Wahn oder Wirklichkeit? – Dieser Psychothriller hat es in sich! Auf mehreren Zeitebenen spielt Sebastian Fitzek ein grandioses Verwirrspiel: Ein Serienmörder ist auf der Jagd nach seinem entkommenen Opfer und die Grenze zwischen Realität und Wahn verschwimmt. »Sebastian Fitzek - Mann für die Bestseller!« (sueddeutsche.de) »Deutschlands bester Thriller-Autor Sebastian Fitzek ist ein Garant für schlaflose Nächte« DONNA",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426440087"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426440083"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 408,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.30.28.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=ZMUaCwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=ZMUaCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=ZMUaCwAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=ZMUaCwAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=ZMUaCwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=ZMUaCwAAQBAJ&rdid=book-ZMUaCwAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Das_Paket-sample-epub.acsm?id=ZMUaCwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Das_Paket-sample-pdf.acsm?id=ZMUaCwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=ZMUaCwAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Auf mehreren Zeitebenen spielt Sebastian Fitzek ein grandioses Verwirrspiel: Ein Serienmörder ist auf der Jagd nach seinem entkommenen Opfer und die Grenze zwischen Realität und Wahn verschwimmt. »Sebastian Fitzek - Mann für die ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "9PhqEAAAQBAJ",
+      "etag": "EBE4Zwp2Los",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/9PhqEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Mimik",
+        "subtitle": "Psychothriller | SPIEGEL Bestseller Platz 1",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2022-10-25",
+        "description": "Fürchte dich nicht! Außer vor dir selbst ... Sebastian Fitzeks herausragender Psychothriller um eine Mimikresonanz-Expertin, die sich in größter Not selbst nicht mehr trauen kann Ein winziges Zucken im Mundwinkel, die kleinste Veränderung in der Pupille reichen ihr, um das wahre Ich eines Menschen zu \"lesen\": Hannah Herbst ist Deutschlands erfahrenste Mimikresonanz-Expertin, spezialisiert auf die geheimen Signale des menschlichen Körpers. Als Beraterin der Polizei hat sie schon etliche Gewaltverbrecher überführt. Doch ausgerechnet als sie nach einer Operation mit den Folgen eines Gedächtnisverlustes zu kämpfen hat, wird sie mit dem schrecklichsten Fall ihrer Karriere konfrontiert: Eine bislang völlig unbescholtene Frau hat gestanden, ihre Familie bestialisch ermordet zu haben. Nur ihr kleiner Sohn Paul hat überlebt. Nach ihrem Geständnis gelingt der Mutter die Flucht aus dem Gefängnis. Ist sie auf der Suche nach ihrem Sohn, um ihre \"Todesmission\" zu vollenden? Hannah Herbst hat nur das kurze Geständnis-Video, um die Mutter zu überführen und Paul zu retten. Das Problem: Die Mörderin auf dem Video ist Hannah selbst! Ihr einziger Ausweg führt tief in ihr Innerstes ... Mit fachlicher Beratung von Dirk Eilert, dem führenden Mimik- und Körpersprache-Experten im deutschsprachigen Raum.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426439852"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426439859"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 453,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.16.16.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=9PhqEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=9PhqEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=9PhqEAAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=6&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=9PhqEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=9PhqEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=9PhqEAAAQBAJ&rdid=book-9PhqEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Mimik-sample-epub.acsm?id=9PhqEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Mimik-sample-pdf.acsm?id=9PhqEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=9PhqEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Das Problem: Die Mörderin auf dem Video ist Hannah selbst! Ihr einziger Ausweg führt tief in ihr Innerstes ... Mit fachlicher Beratung von Dirk Eilert, dem führenden Mimik- und Körpersprache-Experten im deutschsprachigen Raum."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "cEIeEAAAQBAJ",
+      "etag": "5fUdwO6JhgE",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/cEIeEAAAQBAJ",
+      "volumeInfo": {
+        "title": "Der erste letzte Tag",
+        "subtitle": "Kein Thriller | SPIEGEL Bestseller Platz 1 | Mit Illustrationen von Jörn \"Stolli\" Stollmann",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2021-04-28",
+        "description": "Was geschieht, wenn zwei Menschen einen Tag verbringen, als wäre es ihr letzter? Ein ungleiches Paar. Eine schicksalhafte Mitfahrgelegenheit. Ein Selbstversuch der besonderen Art. Livius Reimer macht sich auf den Weg von München nach Berlin, um seine Ehe zu retten. Als sein Flug gestrichen wird, muss er sich den einzig noch verfügbaren Mietwagen mit einer jungen Frau teilen, um die er sonst einen großen Bogen gemacht hätte. Zu schräg, zu laut, zu ungewöhnlich - mit ihrer unkonventionellen Sicht auf die Welt überfordert Lea von Armin Livius von der ersten Sekunde an. Bereits kurz nach der Abfahrt lässt Livius sich auf ein ungewöhnliches Gedankenexperiment von Lea ein – und weiß nicht, dass damit nicht nur ihr Roadtrip einen völlig neuen Verlauf nimmt, sondern sein ganzes Leben! Ein Roadtrip voller Komik, Dramatik und unvorhersehbarer Abzweigungen! Von Deutschlands Bestsellerautor Nr. 1 Sebastian Fitzek – mit zwei skurrilen, ans Herz gehenden Hauptfiguren, die unterschiedlicher nicht sein könnten. \"Sebastian Fitzek ist in einem für ihn untypischen Literatur-Genre unterwegs – und macht dabei keine schlechte Figur. (...) Ein mit Leichtigkeit geschriebenes Werk voller Humor und Komik.\" Passauer Neue Presse \"Spitzbübisch, ironisch und voll humoriger, aber tiefgründiger Dialoge.\" Belletristik-Couch",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426462522"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426462524"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 291,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.14.15.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=cEIeEAAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=cEIeEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=cEIeEAAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=7&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=cEIeEAAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=cEIeEAAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 12.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 12.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=cEIeEAAAQBAJ&rdid=book-cEIeEAAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 12990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Der_erste_letzte_Tag-sample-epub.acsm?id=cEIeEAAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.de/books/download/Der_erste_letzte_Tag-sample-pdf.acsm?id=cEIeEAAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=cEIeEAAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "&quot;Sebastian Fitzek ist in einem für ihn untypischen Literatur-Genre unterwegs – und macht dabei keine schlechte Figur. (...) Ein mit Leichtigkeit geschriebenes Werk voller Humor und Komik."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "UcJrAgAAQBAJ",
+      "etag": "bLoU52Ueqhw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/UcJrAgAAQBAJ",
+      "volumeInfo": {
+        "title": "Splitter",
+        "subtitle": "Psychothriller | Spiegel Bestseller | \"Was wäre Spannungsliteratur ohne einen Hauch Irrsinn?\" Stern",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2009-10-02",
+        "description": "Tödliche Unfälle, Gedächtnisverlust, Experimente – Spannung pur in diesem Psychothriller der Extraklasse von Sebastian Fitzek Was wäre, wenn wir die schlimmsten Erlebnisse unseres Lebens für immer aus unserem Gedächtnis löschen könnten? Und was, wenn etwas dabei schief geht? Viel stärker als der Splitter, der sich in seinen Kopf gebohrt hat, schmerzt Marc Lucas die seelische Wunde seines selbst verschuldeten Autounfalls - denn seine Frau hat nicht überlebt. Als Marc von einem psychiatrischen Experiment hört, das ihn von dieser quälenden Erinnerung befreien könnte, schöpft er Hoffnung. Doch nach den ersten Tests beginnt das Grauen: Marcs Wohnungsschlüssel passt nicht mehr. Ein fremder Name steht am Klingelschild. Dann öffnet sich die Tür – und Marc schaut einem Alptraum ins Gesicht ... Dieser Psychothriller von Sebastian Fitzek verspricht Spannung bis zur letzten Zeile",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426558522"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426558521"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 462,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "3.24.25.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=UcJrAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=UcJrAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=UcJrAgAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=8&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=UcJrAgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UcJrAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=UcJrAgAAQBAJ&rdid=book-UcJrAgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=UcJrAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Und was, wenn etwas dabei schief geht? Viel stärker als der Splitter, der sich in seinen Kopf gebohrt hat, schmerzt Marc Lucas die seelische Wunde seines selbst verschuldeten Autounfalls - denn seine Frau hat nicht überlebt."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Qe5rAgAAQBAJ",
+      "etag": "AncskW5Ayew",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Qe5rAgAAQBAJ",
+      "volumeInfo": {
+        "title": "Das Kind",
+        "subtitle": "Psychothriller | SPIEGEL Bestseller | »Das Buch ist nichts für Leser mit schwachen Nerven. Hart und spannend bis zum überraschenden Schluss.« stern",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Droemer eBook",
+        "publishedDate": "2009-10-02",
+        "description": "»Als Robert Stern diesem ungewöhnlichen Treffen zugestimmt hatte, wusste er nicht, dass er damit eine Verabredung mit dem Tod einging. Noch weniger ahnte er, dass der Tod etwa 1,43 m messen, Turnschuhe tragen und lächelnd auf einem gottverlassenen Industriegelände in sein Leben treten würde.« FItzeks neuer Psychothriller – mit einem unmöglichen Serienmörder? Strafverteidiger Robert Stern ist wie vor den Kopf geschlagen, als er sieht, wer der geheimnisvolle Mandant ist, mit dem er sich auf einem abgelegenen und heruntergekommenen Industriegelände treffen soll: Simon, ein zehnjähriger Junge, zerbrechlich, todkrank – und fest überzeugt, in einem früheren Leben ein Mörder gewesen zu sein. Doch Robert Sterns Verblüffung wandelt sich in Entsetzen und Verwirrung, als er in jenem Keller, den Simon beschrieben hat, tatsächlich menschliche Überreste findet: ein Skelett, der Schädel mit einer Axt gespalten. Und dies ist erst der Anfang. Denn nicht nur berichtet Simon von weiteren, vor Jahren hingerichteten Opfern, schon bald wird auch die Gegenwart mörderisch ... Hochspannend, unerwartet, ungewöhnlich – Dieser Psychothriller wird dir den Schlaf rauben Sebastian FItzek versteht es wie kein Zweiter in seinen Bann zu schlagen. Unerwartete Wendungen und ungewöhnliche Figuren machen diesen Roman zu einem Psychothriller der Sonderklasse. »Fitzek beherrscht sein Handwerk, als hätte er Jahrzehnte nichts anderes getan. Nach drei Büchern steht fest: Dieser Autor macht süchtig!« Focus online",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426559284"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426559285"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 481,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "2.31.32.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Qe5rAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Qe5rAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=Qe5rAgAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=9&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=Qe5rAgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=Qe5rAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=Qe5rAgAAQBAJ&rdid=book-Qe5rAgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Qe5rAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Hochspannend, unerwartet, ungewöhnlich – Dieser Psychothriller wird dir den Schlaf rauben Sebastian FItzek versteht es wie kein Zweiter in seinen Bann zu schlagen."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "E6puAgAAQBAJ",
+      "etag": "ntM0pQjIKKw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/E6puAgAAQBAJ",
+      "volumeInfo": {
+        "title": "Der Nachtwandler",
+        "subtitle": "Psychothriller | Intelligentes Verwirrspiel in den Abgründer der Psyche - Für Fans von Christopher Nolans \"Inception\" | SPIEGEL Bestseller",
+        "authors": [
+          "Sebastian Fitzek"
+        ],
+        "publisher": "Knaur eBook",
+        "publishedDate": "2013-03-14",
+        "description": "Ein Abstecher in die Abgründe der menschlichen Psyche – der neue Psychothriller von Sebastian Fitzek! In seiner Jugend litt Leon Nader an Schlafstörungen. Als Schlafwandler wurde er während seiner nächtlichen Ausflüge sogar gewalttätig und deswegen psychiatrisch behandelt. Eigentlich glaubte er geheilt zu sein – doch eines Tages, Jahre später, verschwindet Leons Frau unter unerklärlichen Umständen aus der gemeinsamen Wohnung. Ist seine Krankheit etwa wieder ausgebrochen? Um zu erfahren, wie er sich im Schlaf verhält, befestigt Leon eine bewegungsaktive Kamera an seiner Stirn – und als er am nächsten Morgen das Video ansieht, macht er eine Entdeckung, die die Grenzen seiner Vorstellungskraft sprengt: Sein nächtliches Ich steigt durch eine ihm völlig unbekannte Tür hinab in die Dunkelheit ... Spannung pur – der nervenaufreibende SPIEGEL-Bestseller des Königs des Thrills Sebastian Fitzek \"Brachiale Gewalt, komatöse Extremsituationen und ein teuflischer Plot zeichnen auch Fitzeks neuesten Spannungsroman DER NACHTWANDLER aus. Mit minimalem Aufwand an Sprache, Figuren und Schauplätzen erreicht er maximalen Schauder und Thrill.\" - Mannheimer Morgen",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9783426417935"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "3426417936"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": true
+        },
+        "pageCount": 358,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 1,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "1.22.24.0.preview.3",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=E6puAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=E6puAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "de",
+        "previewLink": "http://books.google.de/books?id=E6puAgAAQBAJ&printsec=frontcover&dq=Sebastian+Fizelk&hl=&cd=10&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=E6puAgAAQBAJ&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=E6puAgAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "DE",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "retailPrice": {
+          "amount": 9.99,
+          "currencyCode": "EUR"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=E6puAgAAQBAJ&rdid=book-E6puAgAAQBAJ&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "retailPrice": {
+              "amountInMicros": 9990000,
+              "currencyCode": "EUR"
+            },
+            "giftable": true
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "DE",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": true
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=E6puAgAAQBAJ&hl=&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Spannung pur – der nervenaufreibende SPIEGEL-Bestseller des Königs des Thrills Sebastian Fitzek &quot;Brachiale Gewalt, komatöse Extremsituationen und ein teuflischer Plot zeichnen auch Fitzeks neuesten Spannungsroman DER NACHTWANDLER aus."
+      }
+    }
+  ]
+}
