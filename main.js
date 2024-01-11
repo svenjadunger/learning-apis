@@ -1,3 +1,5 @@
+
+//Show more or less button
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -13,18 +15,3 @@ function myFunction() {
     moreText.style.display = "inline";
   }
 }
-
-console.log("ji");
-console.log(data);
-
-const myContentContainer = document.getElementById("content");
-
-for (let i = 0; i < data.length; i++) {
-  const title = data[i].title;
-  const titleElement = document.createElement("p");
-  titleElement.textContent = title;
-  myContentContainer.appendChild(titleElement);
-  console.log("title :", title);
-}
-
-

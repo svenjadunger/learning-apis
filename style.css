@@ -1,1 +1,13 @@
-#more {display: none;}
+#api-data div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#api-data h3 {
+    margin: 0 0 10px 0;
+}
+
+#api-data p {
+    margin: 0;
+}
