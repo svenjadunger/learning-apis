@@ -1,15 +1,4 @@
-// function searchBooks() {
-//   var searchTerm = document.getElementById("searchTerm").value;
-//   if (!searchTerm.trim()) {
-//     alert("Please enter a search term.");
-//     return;
-//   }
 
-//   fetch(
-//     "https://www.googleapis.com/books/v1/volumes?q=" +
-//       encodeURIComponent(searchTerm)
-//   )
-  
 
 //Show more or less button
 function myFunction() {
@@ -28,34 +17,49 @@ function myFunction() {
   }
 }
 
-// to add books to the table
-function addBooksToTable() {
-  var books = data.items;
-  var tableBody = document.querySelector(".table tbody");
+// to add books to the table or just showing
+function handleResponse(response) {
+  const tbody = document.getElementById('content');
 
-  books.forEach((book) => {
-    var row = document.createElement("tr");
-    row.innerHTML = `
-      <td>${book.volumeInfo.title}</td>
-      <td>${book.volumeInfo.description || "No description available"}</td>
-      <td>${
-        book.volumeInfo.authors
-          ? book.volumeInfo.authors.join(", ")
-          : "Unknown"
-      }</td>
-      <td><img src="${
-        book.volumeInfo.imageLinks ? book.volumeInfo.imageLinks.thumbnail : ""
-      }" alt="${book.volumeInfo.title}"></td>
-    `;
-    tableBody.appendChild(row);
-  });
+  for (var i = 0; i < 3; i++) {
+    var item = response.items[i];
+    var title = item.volumeInfo.title;
+    var author = item.volumeInfo.authors.join(', ');
+    var publisher = item.volumeInfo.publisher;
+    var image= item.volumeInfo.imageLinks.thumbnail;
+    var newRow =
+      "<tr><td>" +
+      (i + 1) +
+      "</td><td>" +
+      title +
+      "</td><td>" +
+      author +
+      "</td><td>" +
+      publisher +
+      "</td><td><img src='" +
+      image +
+      "' alt='Cover'></td></tr>";
+ 
+    
+
+    tbody.insertAdjacentHTML('beforeend', newRow);
+
+  }
 }
 
-// call function if page is loaded
-document.addEventListener("DOMContentLoaded", addBooksToTable);
+fetch(
+  "https://www.googleapis.com/books/v1/volumes?q=Bestseller"
+)
+  .then((response) => response.json())
+  .then(handleResponse)
+  .catch((error) => console.error(error));
+
+
+
+
 
 //API Data
-var data = {
+const data = {
   kind: "books#volumes",
   totalItems: 886,
   items: [
@@ -901,3 +905,5 @@ var data = {
     },
   ],
 };
+
+

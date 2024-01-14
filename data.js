@@ -1,4 +1,4 @@
-var data = 
+const myData = 
 {
     "kind": "books#volumes",
     "totalItems": 886,
