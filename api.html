@@ -10,6 +10,8 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!--Search Button-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css" />
     <!--JS link Bootstrap*/-->
     <script
@@ -43,29 +45,19 @@
               <a class="nav-link" href="api.html">Books</a>
             </li>
           </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Search
-            </button>
-          </form>
         </div>
       </div>
     </nav>
   </head>
   <body>
-    <input type="text" id="searchTerm" placeholder="Search for books" />
-    <button id='searchBtn' onclick="searchBooks()">Search</button>
-
+<!--Search bar-->
+<form class="example" action="action_page.php">
+  <input type="text" placeholder="Search for Books.." name="search">
+  <button type="submit"><i class="fa fa-search"></i></button>
+</form>
    
 
    <!-- <div id="content"></div> -->
-
     <h1 class="text-center">Bestseller</h1>
 
     <!--Table-->
