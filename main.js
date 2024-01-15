@@ -56,6 +56,41 @@ fetch(
 
 
 
+//adding API DATA to the page in the cards
+function handleResp(response) {
+  const container = document.querySelector(".data-container");
+
+  response.items.forEach((item, index) => {
+    const image = item.volumeInfo.imageLinks.thumbnail;
+    const title = item.volumeInfo.title;
+
+    const galleryDiv = document.createElement("div");
+    galleryDiv.className = "gallery";
+
+    const imageElement = document.createElement("img");
+    imageElement.src = image;
+    imageElement.alt = title;
+    imageElement.style.width = "100%";
+    imageElement.style.height = "auto";
+
+    galleryDiv.appendChild(imageElement);
+    container.appendChild(galleryDiv);
+  });
+}
+
+fetch("https://www.googleapis.com/books/v1/volumes?q=Bestseller")
+  .then((response) => response.json())
+  .then(handleResp)
+  .catch((error) => console.error(error));
+
+
+
+
+
+
+
+
+
 
 
 //API Data

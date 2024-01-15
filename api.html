@@ -50,30 +50,64 @@
     </nav>
   </head>
   <body>
-<!--Search bar-->
+
+
+
+
+<!--card with checkbox-->
+<div id="test">
+<div class="search-card align-items: center" style="width: 18rem;">
+  <img src="https://images.unsplash.com/photo-1521587760476-6c12a4b040da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+
+
+    <h5>Filter by:</h5>
+    <div>
+        <input type="checkbox" id="fiction" name="genre" value="Fiction">
+
+            <label for="fiction">Fiction</label>
+</div>
+<div>
+    <input type="checkbox" id="nonfiction" name="genre" value="Non-Fiction">
+    <label for="nonfiction">Non-Fiction</label>
+</div>
+<div>
+    <input type="checkbox" id="bestsellers" name="special" value="Bestsellers">
+    <label for="bestsellers">Bestsellers</label>
+</div>
+<!--dropdown -->
+<div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Action</a></li>
+    <li><a class="dropdown-item" href="#">Another action</a></li>
+    <li><a class="dropdown-item" href="#">Something else here</a></li>
+  </ul>
+</div>
+
+    <!--Search bar-->
 <form class="example" action="action_page.php">
   <input type="text" placeholder="Search for Books.." name="search">
   <button type="submit"><i class="fa fa-search"></i></button>
 </form>
+  </div>
+</div>
+
+
+
+
+
+<div class="data-container">
+
+</div>
+
+
    
-
-   <!-- <div id="content"></div> -->
-    <h1 class="text-center">Bestseller</h1>
-
-    <!--Table-->
-    <table class="table">
-  <thead>
-    <tr class= "table-info">
-      <th scope="col">Rank</th>
-      <th scope="col">Title</th>
-      <th scope="col">Author</th>
-      <th scope="col">Publisher</th>
-      <th scope="col">Cover</th>
-    </tr>
-  </thead>
-  <tbody id="content">
-  </tbody>
-</table>
     <script src="data.js"></script>
     <script src="main.js"></script>
 
