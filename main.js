@@ -128,3 +128,38 @@ function displayResults(data) {
 
 
 
+//TRYING TO FILTER DATA (Sebastian Fitzek)
+
+// Funktion zur Anzeige von Sebastian Fitzek Büchern
+function displayFitzekBooks(books) {
+  const container = document.querySelector(".data-container");
+
+  books.forEach((book) => {
+    const image = book.volumeInfo.imageLinks.thumbnail;
+    const title = book.volumeInfo.title;
+
+    const galleryDiv = document.createElement("div");
+    galleryDiv.className = "gallery";
+
+    const imageElement = document.createElement("img");
+    imageElement.src = image;
+    imageElement.alt = title;
+    imageElement.style.width = "100%";
+    imageElement.style.height = "auto";
+
+    galleryDiv.appendChild(imageElement);
+    container.appendChild(galleryDiv);
+  });
+}
+
+const myFetch = async () => {
+  fetch("https://www.googleapis.com/books/v1/volumes?q=inauthor:Sebastian+Fitzek")
+    .then((response) => response.json())
+    .then((result) => {
+      const booksOfFitzek = result.items.filter(book => book.volumeInfo.authors && book.volumeInfo.authors.includes("Sebastian Fitzek"));
+      displayFitzekBooks(booksOfFitzek);
+    })
+    .catch((err) => console.log(err));
+};
+
+myFetch();

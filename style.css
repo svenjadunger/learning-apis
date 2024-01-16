@@ -14,11 +14,20 @@
 
 
 
-
-/*SEARCH BAR*/
-* {
-  box-sizing: border-box;
+/* Styling für das Suchformular */
+.searchForm {
+  display: flex; /* Flex-Container für Suchfeld und Button */
 }
+
+.searchForm input[type="search"] {
+  flex-grow: 1; /* Suchfeld nimmt verfügbaren Platz ein */
+  margin-right: 8px; /* Abstand zum Button */
+}
+
+/* ... (weitere vorhandene Stile) ... */
+
+
+
 
 /* STYLING SEARCH FIELD */
 form.example input[type=text] {
@@ -30,22 +39,7 @@ form.example input[type=text] {
   background: #f1f1f1;
 }
 
-/* Styling submit button */
-form.example button {
-  float: left;
-  width: 20%;
-  padding: 10px;
-  background: #2196F3;
-  color: white;
-  font-size: 17px;
-  border: 1px solid grey;
-  border-left: none; /* Prevent double borders */
-  cursor: pointer;
-}
 
-form.example button:hover {
-  background: #0b7dda;
-}
 
 /* Clear floats */
 form.example::after {
