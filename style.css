@@ -100,7 +100,7 @@ form.example::after {
 
 
 
-
+/* 
     /*cards test */
 
 div.gallery {
@@ -127,4 +127,76 @@ div.desc {
 
 
 
+
+
+
+/* Styling the table */
+.table {
+  width: 
+80%;
+margin: 25px auto;
+border-collapse: collapse;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr {
+background-color: #009879;
+color: #ffffff;
+text-align: left;
+}
+
+.table th,
+.table td {
+padding: 12px 15px;
+}
+
+.table tbody tr {
+border-bottom: 1px solid #dddddd;
+}
+
+.table tbody tr:nth-of-type(even) {
+background-color: #f3f3f3;
+}
+
+.table tbody tr:last-of-type {
+border-bottom: 2px solid #009879;
+}
+
+.table tbody tr.active-row {
+font-weight: bold;
+color: #009879;
+}
+
+/* Responsive table */
+@media screen and (max-width: 768px) {
+.table thead {
+display: none;
+}
+
+.table, .table tbody, .table tr, .table td {
+display: block;
+width: 100%;
+}
+
+.table tr {
+margin-bottom: 15px;
+}
+
+.table td {
+text-align: right;
+padding-left: 50%;
+text-align: right;
+position: relative;
+}
+
+.table td::before {
+content: attr(data-label);
+position: absolute;
+left: 0;
+width: 50%;
+padding-left: 15px;
+font-weight: bold;
+text-align: left;
+}
+}
 
