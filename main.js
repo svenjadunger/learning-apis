@@ -1,6 +1,6 @@
 
 
-//Show more or less button
+//SHOW MORE OR LESS BUTTON
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -17,7 +17,7 @@ function myFunction() {
   }
 }
 
-// to add books to the table or just showing
+// TO ADD BOOKS TO THE TABLE
 function handleResponse(response) {
   const tbody = document.getElementById('content');
 
@@ -56,9 +56,9 @@ fetch(
 
 
 
-//adding API DATA to the page in the cards
+//TO FILTER DATA (BESTSELLER)
 function handleResp(response) {
-  const container = document.querySelector(".data-container");
+  const container = document.getElementById("bestseller-books");
 
   response.items.forEach((item, index) => {
     const image = item.volumeInfo.imageLinks.thumbnail;
@@ -88,7 +88,7 @@ fetch("https://www.googleapis.com/books/v1/volumes?q=Bestseller")
 
 
 
-//adding book data to searchbar
+//TO ADD DATA TO SEARCHBAR
   document.getElementById('searchForm').addEventListener('submit', function(event) {
   event.preventDefault();
   const query = document.getElementById('searchQuery').value;
@@ -128,11 +128,10 @@ function displayResults(data) {
 
 
 
-//TRYING TO FILTER DATA (Sebastian Fitzek)
+//TO FILTER DATA (SEBASTIAN FITZEK BOOKS)
 
-// Funktion zur Anzeige von Sebastian Fitzek Büchern
 function displayFitzekBooks(books) {
-  const container = document.querySelector(".data-container");
+  const container = document.getElementById("fitzek-books");
 
   books.forEach((book) => {
     const image = book.volumeInfo.imageLinks.thumbnail;

@@ -14,17 +14,17 @@
 
 
 
-/* Styling für das Suchformular */
+/* STYLING FOR SEARCHING AREA */
 .searchForm {
-  display: flex; /* Flex-Container für Suchfeld und Button */
+  display: flex; 
 }
 
 .searchForm input[type="search"] {
-  flex-grow: 1; /* Suchfeld nimmt verfügbaren Platz ein */
-  margin-right: 8px; /* Abstand zum Button */
+  flex-grow: 1; 
+  margin-right: 8px; 
 }
 
-/* ... (weitere vorhandene Stile) ... */
+
 
 
 
@@ -41,14 +41,14 @@ form.example input[type=text] {
 
 
 
-/* Clear floats */
+/* CLEAR FLOATS */
 form.example::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/*card with check*/
+/*CARDS WITH CHECKBOXES*/
 
 
  .search-card {
@@ -94,47 +94,23 @@ form.example::after {
 
 
 
-/* 
-    /*cards test */
-
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-  align-items: left;
-  flex-direction: column;
-}
-
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
 
 
-/*Home page navbar*/
+
+/*HOMEPAGE NAVBAR*/
 
 .container-fluid {
   color:#0b7dda; 
 }
 
 
-/*background color*/
+/*BACKGROUND COLOR BODY*/
 body {
 background-color: #ced4da;
 }
 
 
-/* Styling the table */
+/* TO STYLE THE TABLE */
 .table {
 width: 80%;
 margin: 25px auto;
@@ -170,7 +146,7 @@ font-weight: bold;
 color: #009879;
 }
 
-/* Responsive table */
+/* MAKE TABLE RESPONSIVE */
 @media screen and (max-width: 768px) {
 .table thead {
 display: none;
@@ -205,4 +181,29 @@ text-align: left;
 
 
 
-/*styling cards*/
+/* CHANGE ARRANGEMENT FOR BOOKS CONTAINER */
+.fitzek-books-container, .bestseller-books-container {
+  margin-bottom: 20px;
+}
+
+div.gallery {
+  margin: 5px;
+  width: auto;
+  align-items: left;
+  flex-direction: column;
+  flex: 0 0 auto;
+  margin: 0 10px;
+  width: 180px;
+}
+
+/* WIDTH BOOK GALLERY*/
+div.gallery img {
+  max-width: 100%;
+  height: auto;
+}
+
+.books-row {
+  display: flex;
+  overflow-x: auto;
+  padding: 10px 0;
+}
