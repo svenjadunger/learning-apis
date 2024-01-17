@@ -58,7 +58,7 @@
     <p class="card-text">Start your literary journey today and dive into a world of endless possibilities. Your next great read is just a few clicks away!</p>
 
 
-    <h5>Filter by:</h5>
+    <h5>Filter by Genre:</h5>
     <div>
     <input type="checkbox" class="checkbox" id="fiction" name="genre" value="Fiction">
     <label for="fiction">Fiction</label>
@@ -83,7 +83,7 @@
 
 <!-- SEARCH BUTTON -->
 <form id="searchForm" class="searchForm" role="search">
-    <input class="form-control me-2" type="search" id="searchQuery" placeholder="Search any books.." aria-label="Search">
+    <input class="form-control me-2" type="search" id="searchQuery" placeholder="Search all books.." aria-label="Search">
     <button class="btn btn-outline-success" type="submit">Search</button>
 </form>
 <div id="searchResults"></div>
@@ -98,13 +98,13 @@
 
 <!-- CONTAINER FOR FITZEK-BOOKS -->
 <div class="fitzek-books-container">
-  <h2>Sebastian Fitzek Books</h2>
+  <h2 id="heading-fitzek">Sebastian Fitzek Books</h2>
   <div class="books-row" id="fitzek-books"></div> 
 </div>
 
 <!-- CONTAINER FOR BESTSELLER-BOOKS-->
 <div class="bestseller-books-container">
-  <h2>Bestseller Books</h2>
+  <h2 id="heading-bestseller">Bestseller Books</h2>
   <div class="books-row" id="bestseller-books"></div> 
 </div>
 
