@@ -54,6 +54,7 @@ form.example::after {
  .search-card {
         width: 40rem; 
         margin: auto; 
+        padding:0.3rem;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         background-color: white;
@@ -208,3 +209,5 @@ div.gallery img {
   overflow-x: auto;
   padding: 10px 0;
 }
+
+
