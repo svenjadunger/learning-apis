@@ -1,18 +1,11 @@
-#api-data div {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
+/*HOMEPAGE CARDS*/
+.card {
+  padding:0.5em;
 }
 
-#api-data h3 {
-    margin: 0 0 10px 0;
+.card-bodyy {
+  font-family:Arial;
 }
-
-#api-data p {
-    margin: 0;
-}
-
-
 
 /* STYLING FOR SEARCHING AREA */
 .searchForm {
@@ -49,8 +42,6 @@ form.example::after {
 }
 
 /*CARDS WITH CHECKBOXES*/
-
-
  .search-card {
         width: 40rem; 
         margin: auto; 
@@ -101,9 +92,6 @@ form.example::after {
 
 /*HOMEPAGE NAVBAR*/
 
-.container-fluid {
-  color:#0b7dda; 
-}
 
 
 /*BACKGROUND COLOR BODY*/
