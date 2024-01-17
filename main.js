@@ -165,27 +165,15 @@ myFetch();
 
 
 //FILTERING BASED ON CHECKBOX
-
-document.querySelectorAll('.checkbox').forEach(item => {
-  item.addEventListener('change', handleCheckboxChange);
+document.querySelectorAll(".checkbox").forEach((item) => {
+  item.addEventListener("change", handleCheckboxChange);
 });
 
 function handleCheckboxChange() {
-  let query = '';
-  document.querySelectorAll('.checkbox:checked').forEach(checkbox => {
-    query += checkbox.value + '+';
+  let query = "";
+  document.querySelectorAll(".checkbox:checked").forEach((checkbox) => {
+    query += `subject:${checkbox.value}+`;
   });
-  query = query.slice(0, -1); // Entfernt das letzte Pluszeichen
-  fetchBooks(query); // Ruft die Funktion fetchBooks auf, um die Daten basierend auf der Auswahl zu filtern
+  query = query.slice(0, -1);
+  fetchBooks(query);
 }
-
-function fetchBooks(query) {
-  const url = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
-  fetch(url)
-    .then(response => response.json())
-    .then(data => displayResults(data))
-    .catch(error => console.error('Error:', error));
-}
-
-
-
