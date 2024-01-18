@@ -112,7 +112,27 @@ form.example::after {
 
 
 
-/*HOMEPAGE NAVBAR*/
+/* HOMEPAGE NAVBAR */
+#navbar {
+  top: 0;
+  z-index: 1020; 
+  background-color: #986253c3; 
+  color: white; 
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+  color: white; 
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ccc; 
+}
+
+.active {
+color:rgb(92, 51, 51) !important;
+}
+
+
 
 
 
@@ -219,5 +239,3 @@ div.gallery img {
   overflow-x: auto;
   padding: 10px 0;
 }
-
-
