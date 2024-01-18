@@ -67,10 +67,16 @@ form.example::after {
  .search-card {
         width: 40rem; 
         margin: auto; 
+        margin-bottom: 1em;
         padding:0.3rem;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: 0.3s;
         background-color: white;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
     }
 
     .card-img-top {
@@ -79,7 +85,7 @@ form.example::after {
     }
 
     .card-body {
-        padding: 2px 16px;
+        padding: 1em;
     }
 
     .example input[type=text] {

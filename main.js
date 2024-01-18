@@ -114,14 +114,20 @@ function displayResults(data) {
       ? book.volumeInfo.imageLinks.thumbnail
       : "";
     resultsContainer.innerHTML += `
-      <div class="search-card">
-        <img src="${thumbnail}" alt="${title}">
-<div class="card-body">
-<h5 class="card-title">${title}</h5>
-<p class="card-text">${author}</p>
-</div>
-</div>
-`;
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="${thumbnail}" class="img-fluid rounded-start" alt="${title}">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">${title}</h5>
+              <p class="card-text">${author}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
   });
 }
 
