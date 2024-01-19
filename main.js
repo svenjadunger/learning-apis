@@ -189,3 +189,54 @@ function handleCheckboxChange() {
 
 
 
+
+document.getElementById('languageSelect').addEventListener('change', function() {
+  let query = document.getElementById('searchQuery').value;
+  fetchBooks(query);
+});
+
+function fetchBooks(query) {
+  let language = document.getElementById('languageSelect').value;
+  let searchUrl = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
+  if (language) {
+    searchUrl += `&langRestrict=${language}`;
+  }
+  fetch(searchUrl)
+    .then(response => response.json())
+    .then(data => displayResults(data))
+    .catch(error => console.error('Error:', error));
+}
+
+// Die displayResults Funktion bleibt wie zuvor
+
+
+function displayResults(data) {
+  const resultsContainer = document.getElementById("searchResults");
+  resultsContainer.innerHTML = "";
+  resultsContainer.classList.add("d-flex", "flex-wrap");
+
+  data.items.forEach((book) => {
+    const title = book.volumeInfo.title;
+    const author = book.volumeInfo.authors
+      ? book.volumeInfo.authors.join(", ")
+      : "Unknown";
+    const thumbnail = book.volumeInfo.imageLinks
+      ? book.volumeInfo.imageLinks.thumbnail
+      : "";
+
+    resultsContainer.innerHTML += `
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="${thumbnail}" class="img-fluid rounded-start" alt="${title}">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">${title}</h5>
+              <p class="card-text">${author}</p>
+            </div>
+          </div>
+        </div>
+      </div>`;
+  });
+}
