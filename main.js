@@ -89,8 +89,6 @@ fetch("https://www.googleapis.com/books/v1/volumes?q=Bestseller")
 
 
 
-
-
 //TO ADD DATA TO SEARCHBAR
   document.getElementById('searchForm').addEventListener('submit', function(event) {
   event.preventDefault();
@@ -120,15 +118,12 @@ function displayResults(data) {
       : "";
 
     resultsContainer.innerHTML += `
-      <div class="col-md-4 mb-3">
-        <div class="card">
-          <img src="${thumbnail}" class="card-img-top" alt="${title}">
-          <div class="card-body">
-            <h5 class="card-title">${title}</h5>
-            <p class="card-text">${author}</p>
-          </div>
-        </div>
-      </div>
+       <div class="col-md-3 mb-3"> 
+    <div class="card">
+      <img src="${thumbnail}" class="card-img-top" alt="${title}">
+      <div class="card-body">
+        <h5 class="card-title">${title}</h5>
+        <p class="card-text">${author}</p>
     `;
   });
 }
@@ -186,3 +181,7 @@ function handleCheckboxChange() {
   query = query.slice(0, -1);
   fetchBooks(query);
 }
+
+
+
+
