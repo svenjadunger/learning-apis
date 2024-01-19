@@ -118,12 +118,16 @@ function displayResults(data) {
       : "";
 
     resultsContainer.innerHTML += `
-       <div class="col-md-3 mb-3"> 
-    <div class="card">
-      <img src="${thumbnail}" class="card-img-top" alt="${title}">
-      <div class="card-body">
-        <h5 class="card-title">${title}</h5>
-        <p class="card-text">${author}</p>
+       <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="${thumbnail}" class="img-fluid rounded-start" alt="${title}">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">${title}</h5>
+              <p class="card-text">${author}</p>
+            </div>
     `;
   });
 }
