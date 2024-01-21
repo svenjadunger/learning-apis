@@ -28,8 +28,6 @@ function handleResponse(response) {
     var publisher = item.volumeInfo.publisher;
     var image= item.volumeInfo.imageLinks.thumbnail;
     var newRow =
-      "<tr><td>" +
-      (i + 1) +
       "</td><td>" +
       title +
       "</td><td>" +
