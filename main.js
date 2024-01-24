@@ -53,8 +53,9 @@ function handleResponseBestsellers(response) {
     console.log("item :>> ", item);
     const image = item.volumeInfo.imageLinks.thumbnail;
     const title = item.volumeInfo.title;
-    const description = item.volumeInfo.description;
-    const price = item.saleInfo.listPrice?.amount;
+    const description =
+      item.volumeInfo.description || "No description available";;
+    const price = item.saleInfo.listPrice?.amount || "Price not available";
 
     const galleryDiv = document.createElement("div");
     galleryDiv.className = "gallery";
@@ -67,10 +68,9 @@ function handleResponseBestsellers(response) {
     imageElement.setAttribute("data-title", title);
     imageElement.setAttribute("data-description", description);
     imageElement.setAttribute("data-price", price);
-
     imageElement.style.width = "100%";
     imageElement.style.height = "auto";
-  
+
     galleryDiv.appendChild(imageElement);
     container.appendChild(galleryDiv);
   });
@@ -128,12 +128,15 @@ function displayResults(data) {
 
 //TO FILTER DATA (SEBASTIAN FITZEK BOOKS)
 
-function displayFitzekBooks(books) {
+function displayFitzekBooks(response) {
   const container = document.getElementById("fitzek-books");
 
-  books.forEach((book) => {
-    const image = book.volumeInfo.imageLinks.thumbnail;
-    const title = book.volumeInfo.title;
+  response.items.forEach((item, index) => {
+    const image = item.volumeInfo.imageLinks.thumbnail;
+    const title = item.volumeInfo.title;
+    const description =
+      item.volumeInfo.description || "No description available";
+    const price = item.saleInfo.listPrice?.amount || "Price not available";
 
     const galleryDiv = document.createElement("div");
     galleryDiv.className = "gallery";
@@ -141,6 +144,11 @@ function displayFitzekBooks(books) {
     const imageElement = document.createElement("img");
     imageElement.src = image;
     imageElement.alt = title;
+    imageElement.setAttribute("data-bs-toggle", "modal");
+    imageElement.setAttribute("data-bs-target", "#exampleModalCenter");
+    imageElement.setAttribute("data-title", title);
+    imageElement.setAttribute("data-description", description);
+    imageElement.setAttribute("data-price", price);
     imageElement.style.width = "100%";
     imageElement.style.height = "auto";
 
@@ -149,23 +157,11 @@ function displayFitzekBooks(books) {
   });
 }
 
-const myFetch = async () => {
-  fetch(
-    "https://www.googleapis.com/books/v1/volumes?q=inauthor:Sebastian+Fitzek"
-  )
-    .then((response) => response.json())
-    .then((result) => {
-      const booksOfFitzek = result.items.filter(
-        (book) =>
-          book.volumeInfo.authors &&
-          book.volumeInfo.authors.includes("Sebastian Fitzek")
-      );
-      displayFitzekBooks(booksOfFitzek);
-    })
-    .catch((err) => console.log(err));
-};
+fetch("https://www.googleapis.com/books/v1/volumes?q=inauthor:Sebastian+Fitzek")
+  .then((response) => response.json())
+  .then(displayFitzekBooks)
+  .catch((error) => console.error(error));
 
-myFetch();
 
 //FILTERING BASED ON CHECKBOX
 document.querySelectorAll(".checkbox").forEach((item) => {
@@ -202,23 +198,21 @@ function fetchBooks(query) {
     .catch((error) => console.error("Error:", error));
 }
 
-
 //MODAL FOR BESTSELLER GALLERY
-document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener("DOMContentLoaded", (event) => {
   const myModal = document.getElementById("exampleModalCenter");
   myModal.addEventListener("show.bs.modal", function (event) {
     const triggerElement = event.relatedTarget;
-    
+
     const bookTitle = triggerElement.getAttribute("data-title");
     const bookDescription = triggerElement.getAttribute("data-description");
     const bookPrice = triggerElement.getAttribute("data-price");
-    
+
     myModal.querySelector("#exampleModalLongTitle").textContent = bookTitle;
     myModal.querySelector(".modal-body").textContent = bookDescription;
-    
+
     myModal.querySelector(
       "#modalPriceElement"
     ).textContent = `Price: ${bookPrice}`;
-
   });
 });
