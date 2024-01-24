@@ -1,3 +1,8 @@
+/*SHOW MORE OR LESS BUTTON*/
+
+#more {display: none;}
+
+
 /*HEADING HOMEPAGE*/
 .heading-bestsellers {
   position: relative;
@@ -313,6 +318,5 @@ div.gallery img {
   overflow-x: auto;
   padding: 10px 0;
 }
-
 
 

@@ -1,5 +1,5 @@
 //SHOW MORE OR LESS BUTTON
-function myFunction() {
+function myButton() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
   var btnText = document.getElementById("myBtn");
@@ -17,6 +17,7 @@ function myFunction() {
 
 // TO ADD BOOKS TO THE TABLE
 function handleResponse(response) {
+  //finds the part where it will be displayed
   const tbody = document.getElementById("content");
 
   for (var i = 0; i < 3; i++) {
@@ -35,13 +36,15 @@ function handleResponse(response) {
       "</td><td><img src='" +
       image +
       "' alt='Cover'></td></tr>";
-
+//adds new row to the table
     tbody.insertAdjacentHTML("beforeend", newRow);
   }
 }
 
 fetch("https://www.googleapis.com/books/v1/volumes?q=Bestseller")
+  //converting to another format
   .then((response) => response.json())
+  //sends data to handleResponse function
   .then(handleResponse)
   .catch((error) => console.error(error));
 
