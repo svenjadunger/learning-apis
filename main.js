@@ -1,5 +1,3 @@
-
-
 //SHOW MORE OR LESS BUTTON
 function myFunction() {
   var dots = document.getElementById("dots");
@@ -19,14 +17,14 @@ function myFunction() {
 
 // TO ADD BOOKS TO THE TABLE
 function handleResponse(response) {
-  const tbody = document.getElementById('content');
+  const tbody = document.getElementById("content");
 
   for (var i = 0; i < 3; i++) {
     var item = response.items[i];
     var title = item.volumeInfo.title;
-    var author = item.volumeInfo.authors.join(', ');
+    var author = item.volumeInfo.authors.join(", ");
     var publisher = item.volumeInfo.publisher;
-    var image= item.volumeInfo.imageLinks.thumbnail;
+    var image = item.volumeInfo.imageLinks.thumbnail;
     var newRow =
       "</td><td>" +
       title +
@@ -37,30 +35,26 @@ function handleResponse(response) {
       "</td><td><img src='" +
       image +
       "' alt='Cover'></td></tr>";
- 
-    
 
-    tbody.insertAdjacentHTML('beforeend', newRow);
-
+    tbody.insertAdjacentHTML("beforeend", newRow);
   }
 }
 
-fetch(
-  "https://www.googleapis.com/books/v1/volumes?q=Bestseller"
-)
+fetch("https://www.googleapis.com/books/v1/volumes?q=Bestseller")
   .then((response) => response.json())
   .then(handleResponse)
   .catch((error) => console.error(error));
-
-
 
 //TO FILTER DATA (BESTSELLER)
 function handleResponseBestsellers(response) {
   const container = document.getElementById("bestseller-books");
 
   response.items.forEach((item, index) => {
+    console.log("item :>> ", item);
     const image = item.volumeInfo.imageLinks.thumbnail;
     const title = item.volumeInfo.title;
+    const description = item.volumeInfo.description;
+    const price = item.saleInfo.listPrice?.amount;
 
     const galleryDiv = document.createElement("div");
     galleryDiv.className = "gallery";
@@ -68,9 +62,15 @@ function handleResponseBestsellers(response) {
     const imageElement = document.createElement("img");
     imageElement.src = image;
     imageElement.alt = title;
+    imageElement.setAttribute("data-bs-toggle", "modal");
+    imageElement.setAttribute("data-bs-target", "#exampleModalCenter");
+    imageElement.setAttribute("data-title", title);
+    imageElement.setAttribute("data-description", description);
+    imageElement.setAttribute("data-price", price);
+
     imageElement.style.width = "100%";
     imageElement.style.height = "auto";
-
+  
     galleryDiv.appendChild(imageElement);
     container.appendChild(galleryDiv);
   });
@@ -81,24 +81,20 @@ fetch("https://www.googleapis.com/books/v1/volumes?q=Bestseller")
   .then(handleResponseBestsellers)
   .catch((error) => console.error(error));
 
-
-  
-
-
-
-
 //TO ADD DATA TO SEARCHBAR
-  document.getElementById('searchForm').addEventListener('submit', function(event) {
-  event.preventDefault();
-  const query = document.getElementById('searchQuery').value;
-  fetchBooks(query);
-});
+document
+  .getElementById("searchForm")
+  .addEventListener("submit", function (event) {
+    event.preventDefault();
+    const query = document.getElementById("searchQuery").value;
+    fetchBooks(query);
+  });
 
 function fetchBooks(query) {
   fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`)
-    .then(response => response.json())
-    .then(data => displayResults(data))
-    .catch(error => console.error('Error:', error));
+    .then((response) => response.json())
+    .then((data) => displayResults(data))
+    .catch((error) => console.error("Error:", error));
 }
 
 function displayResults(data) {
@@ -130,10 +126,6 @@ function displayResults(data) {
   });
 }
 
-
-
-
-
 //TO FILTER DATA (SEBASTIAN FITZEK BOOKS)
 
 function displayFitzekBooks(books) {
@@ -158,17 +150,22 @@ function displayFitzekBooks(books) {
 }
 
 const myFetch = async () => {
-  fetch("https://www.googleapis.com/books/v1/volumes?q=inauthor:Sebastian+Fitzek")
+  fetch(
+    "https://www.googleapis.com/books/v1/volumes?q=inauthor:Sebastian+Fitzek"
+  )
     .then((response) => response.json())
     .then((result) => {
-      const booksOfFitzek = result.items.filter(book => book.volumeInfo.authors && book.volumeInfo.authors.includes("Sebastian Fitzek"));
+      const booksOfFitzek = result.items.filter(
+        (book) =>
+          book.volumeInfo.authors &&
+          book.volumeInfo.authors.includes("Sebastian Fitzek")
+      );
       displayFitzekBooks(booksOfFitzek);
     })
     .catch((err) => console.log(err));
 };
 
 myFetch();
-
 
 //FILTERING BASED ON CHECKBOX
 document.querySelectorAll(".checkbox").forEach((item) => {
@@ -184,27 +181,44 @@ function handleCheckboxChange() {
   fetchBooks(query);
 }
 
-
-
 //FIlTER BY LANGUAGE
 
-document.getElementById('languageSelect').addEventListener('change', function() {
-  let query = document.getElementById('searchQuery').value;
-  fetchBooks(query);
-});
+document
+  .getElementById("languageSelect")
+  .addEventListener("change", function () {
+    let query = document.getElementById("searchQuery").value;
+    fetchBooks(query);
+  });
 
 function fetchBooks(query) {
-  let language = document.getElementById('languageSelect').value;
+  let language = document.getElementById("languageSelect").value;
   let searchUrl = `https://www.googleapis.com/books/v1/volumes?q=${query}`;
   if (language) {
     searchUrl += `&langRestrict=${language}`;
   }
   fetch(searchUrl)
-    .then(response => response.json())
-    .then(data => displayResults(data))
-    .catch(error => console.error('Error:', error));
+    .then((response) => response.json())
+    .then((data) => displayResults(data))
+    .catch((error) => console.error("Error:", error));
 }
 
 
+//MODAL FOR BESTSELLER GALLERY
+document.addEventListener('DOMContentLoaded', (event) => {
+  const myModal = document.getElementById("exampleModalCenter");
+  myModal.addEventListener("show.bs.modal", function (event) {
+    const triggerElement = event.relatedTarget;
+    
+    const bookTitle = triggerElement.getAttribute("data-title");
+    const bookDescription = triggerElement.getAttribute("data-description");
+    const bookPrice = triggerElement.getAttribute("data-price");
+    
+    myModal.querySelector("#exampleModalLongTitle").textContent = bookTitle;
+    myModal.querySelector(".modal-body").textContent = bookDescription;
+    
+    myModal.querySelector(
+      "#modalPriceElement"
+    ).textContent = `Price: ${bookPrice}`;
 
-
+  });
+});
