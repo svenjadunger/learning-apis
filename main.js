@@ -21,6 +21,7 @@ function handleResponse(response) {
   const tbody = document.getElementById("content");
 
   for (var i = 0; i < 3; i++) {
+    //gets current book from the response
     var item = response.items[i];
     var title = item.volumeInfo.title;
     var author = item.volumeInfo.authors.join(", ");
@@ -36,7 +37,7 @@ function handleResponse(response) {
       "</td><td><img src='" +
       image +
       "' alt='Cover'></td></tr>";
-//adds new row to the table
+//adds new row to the table on the end
     tbody.insertAdjacentHTML("beforeend", newRow);
   }
 }
@@ -54,18 +55,22 @@ function handleResponseBestsellers(response) {
 
   response.items.forEach((item, index) => {
     console.log("item :>> ", item);
+    //image URL
     const image = item.volumeInfo.imageLinks.thumbnail;
     const title = item.volumeInfo.title;
     const description =
-      item.volumeInfo.description || "No description available";;
+      item.volumeInfo.description || "No description available";
     const price = item.saleInfo.listPrice?.amount || "Price not available";
 
     const galleryDiv = document.createElement("div");
     galleryDiv.className = "gallery";
 
     const imageElement = document.createElement("img");
+    //sets to book'd thumbnail URL
     imageElement.src = image;
+    //sets alt to book's title
     imageElement.alt = title;
+    //setting attributes for use with Bootstrap's modal
     imageElement.setAttribute("data-bs-toggle", "modal");
     imageElement.setAttribute("data-bs-target", "#exampleModalCenter");
     imageElement.setAttribute("data-title", title);
@@ -89,6 +94,7 @@ document
   .getElementById("searchForm")
   .addEventListener("submit", function (event) {
     event.preventDefault();
+    //gets value entered in search input field
     const query = document.getElementById("searchQuery").value;
     fetchBooks(query);
   });
@@ -96,6 +102,7 @@ document
 function fetchBooks(query) {
   fetch(`https://www.googleapis.com/books/v1/volumes?q=${query}`)
     .then((response) => response.json())
+    //passes converted data to displayResults function
     .then((data) => displayResults(data))
     .catch((error) => console.error("Error:", error));
 }
@@ -103,8 +110,7 @@ function fetchBooks(query) {
 function displayResults(data) {
   const resultsContainer = document.getElementById("searchResults");
   resultsContainer.innerHTML = "";
-  resultsContainer.classList.add("d-flex", "flex-wrap"); // Flex-Container
-
+  resultsContainer.classList.add("d-flex", "flex-wrap"); // Flex-Container (Bootstrap classes)
   data.items.forEach((book) => {
     const title = book.volumeInfo.title;
     const author = book.volumeInfo.authors
@@ -113,7 +119,7 @@ function displayResults(data) {
     const thumbnail = book.volumeInfo.imageLinks
       ? book.volumeInfo.imageLinks.thumbnail
       : "";
-
+//adding content to resultContainer
     resultsContainer.innerHTML += `
        <div class="card mb-3" style="max-width: 540px;">
         <div class="row g-0">
@@ -201,16 +207,15 @@ function fetchBooks(query) {
     .catch((error) => console.error("Error:", error));
 }
 
-//MODAL FOR BESTSELLER GALLERY
+//MODAL FOR BESTSELLER/FITZEK GALLERY
 document.addEventListener("DOMContentLoaded", (event) => {
   const myModal = document.getElementById("exampleModalCenter");
   myModal.addEventListener("show.bs.modal", function (event) {
     const triggerElement = event.relatedTarget;
-
+//extracting
     const bookTitle = triggerElement.getAttribute("data-title");
     const bookDescription = triggerElement.getAttribute("data-description");
     const bookPrice = triggerElement.getAttribute("data-price");
-
     myModal.querySelector("#exampleModalLongTitle").textContent = bookTitle;
     myModal.querySelector(".modal-body").textContent = bookDescription;
 
@@ -219,3 +224,4 @@ document.addEventListener("DOMContentLoaded", (event) => {
     ).textContent = `Price: ${bookPrice}`;
   });
 });
+

@@ -20,24 +20,25 @@
 }
 
 /* RESPONSIVE ADJUSTEMENTS FOR HEADING*/
+/*PHONES*/
 @media (max-width: 575px) { 
     .heading-bestsellers {
         font-size: 20px; 
     }
 }
-
+/*TABLETS*/
 @media (min-width: 576px) and (max-width: 767px) { 
     .heading-bestsellers {
         font-size: 22px; 
     }
 }
-
+/*TABLETS*/
 @media (min-width: 768px) and (max-width: 991px) { 
     .heading-bestsellers {
         font-size: 24px; 
     }
 }
-
+/*PC*/
 @media (min-width: 992px) { 
     .heading-bestsellers {
         font-size: 26px; 
@@ -69,14 +70,17 @@
 /*HOMEPAGE CARDS*/
 .card {
     margin-bottom: 20px;
+    /*ROUNDED EDGES*/
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .card-img-top {
+   /*ROUNDED EDGES*/
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     height: 200px; 
+    /*TAKES WHOLE SPACE*/
     object-fit: cover;
 }
 
@@ -90,6 +94,7 @@
 }
 
 /* RESPONSIVE CARDS HOMEPAGE */
+/*MAX SCREEN SIZE*/
 @media (max-width: 768px) {
     .card {
         margin-bottom: 15px;
@@ -102,34 +107,10 @@
 
 
 
-
-
-
-
-
-
-/* STYLING SEARCH FIELD */
-form.example input[type=text] {
-  padding: 10px;
-  font-size: 17px;
-  border: 1px solid grey;
-  float: left;
-  width: 80%;
-  background: #f1f1f1;
-}
-
-
-
-/* CLEAR FLOATS */
-form.example::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 /*CARDS WITH CHECKBOXES*/
  .search-card {
         width: 40rem; 
+        /*HORIZONTAL AND CENTERED*/
         margin: auto; 
         margin-bottom: 1em;
         padding:0.3rem;
@@ -154,39 +135,13 @@ form.example::after {
         padding: 1em;
     }
 
-    .example input[type=text] {
-        padding: 10px;
-        font-size: 17px;
-        border: 1px solid grey;
-        float: left;
-        width: 80%;
-        background: #f1f1f1;
-    }
-
-    .example button {
-        float: left;
-        width: 20%;
-        padding: 10px;
-        background: #2196F3;
-        color: white;
-        font-size: 17px;
-        border: 1px solid grey;
-        border-left: none; 
-        cursor: pointer;
-    }
-
-    .example button:hover {
-        background: #0b7dda;
-    }
 
 
 
-
-
-
-/* HOMEPAGE NAVBAR */
+/* NAVBAR */
 #navbar {
   top: 0;
+  /*(überlappen?)*/
   z-index: 1020; 
   background-color: #986253c3; 
   color: white; 
@@ -203,8 +158,6 @@ form.example::after {
 .active {
 color:rgb(92, 51, 51) !important;
 }
-
-
 
 
 
@@ -225,6 +178,7 @@ header {
 .table {
 width: 80%;
 margin: 25px auto;
+/*REMOVES EXTRA SPACE BETWEEN CELLS*/
 border-collapse: collapse;
 box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
@@ -244,13 +198,6 @@ padding: 12px 15px;
 border-bottom: 1px solid #dddddd;
 }
 
-.table tbody tr:nth-of-type(even) {
-background-color: #f3f3f3;
-}
-
-.table tbody tr:last-of-type {
-border-bottom: 2px solid #009879;
-}
 
 .table tbody tr.active-row {
 font-weight: bold;
@@ -258,6 +205,7 @@ color: #009879;
 }
 
 /* MAKE TABLE RESPONSIVE */
+/*HIDING HEAD ON BIGGER SCREENS*/
 @media screen and (max-width: 768px) {
 .table thead {
 display: none;
