@@ -1,10 +1,10 @@
-## Library Information Portal Project
+# Library Information Portal Project
 Duration: January 10, 2024 - January 29, 2024
 
-# Technologies Used:
+## Technologies Used:
 JavaScript, Google Books API
 
-# Main Features: 
+## Main Features: 
 Easy search and book details display.
 
 
